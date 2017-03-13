@@ -19,5 +19,6 @@
   "homepage": "https://github.com/georgefawcett/github-avatar-downloader#readme",
   "dependencies": {
     "request": "^2.81.0"
-  }
+  },
+  "devDependencies": {}
 }
