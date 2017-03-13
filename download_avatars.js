@@ -32,7 +32,7 @@ if (process.argv[2] && process.argv[3]) { // Ensure command line arguments are p
 
 
 
-  getRepoContributors("jquery", "jquery", function(err, response, body) {
+  getRepoContributors(repoOwner, repoName, function(err, response, body) {
 
       if (err) {
         throw err;
